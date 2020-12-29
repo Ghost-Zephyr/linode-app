@@ -1,16 +1,16 @@
 import { StyleSheet } from 'react-native'
 import AsyncStorage from '@react-native-community/async-storage'
 
-/*
 const settings = {
   apiBaseUrl: 'http://localhost:8080/https://api.linode.com/v4',
   storageBackend: window.localStorage
 }
-*/
+/*
 const settings = {
   apiBaseUrl: 'https://api.linode.com/v4',
   storageBackend: AsyncStorage
 }
+*/
 
 const styles = StyleSheet.create({
   container: {
@@ -62,6 +62,10 @@ const styles = StyleSheet.create({
   },
   text: {
     color: 'lime',
+  },
+  error: {
+    color: 'red',
+    fontSize: 16,
   },
 })
 
